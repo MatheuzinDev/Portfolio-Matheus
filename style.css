@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: red;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav .navList {
+    background-color: blue;
+    list-style: none;
+    display: flex;
+    margin-left: 50vw;
+    gap: 5vw;
+}
+
+.nav li {
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: 666666;
+}
