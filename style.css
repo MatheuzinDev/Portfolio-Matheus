@@ -255,6 +255,14 @@ body {
     font-weight: bold;
 }
 
+.bottom-individual-skill p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #42446E;
+    margin-top: 2vh;
+    font-size: 14px;
+}
+
 .body-skills {
     width: 80vw;
     height: 20vh;
@@ -336,12 +344,13 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #42446E;
+    margin-top: 2vh;
 }
 
 .body-cards {
     display: flex;
     justify-content: space-between;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 
 .card {
