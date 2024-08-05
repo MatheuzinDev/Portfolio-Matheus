@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body {
+    overflow-x: hidden; 
+}
+
 
 * {
     padding: 0;
@@ -8,6 +12,7 @@
 
 .section-1 {
     height: 70vh;
+    width: 100vw;
 }
 
 .nav {
@@ -148,6 +153,7 @@
 
 .section-2 {
     height: 90vh;
+    width: 100vw;
 }
 
 .body-section-2 {
@@ -206,6 +212,7 @@
 
 .section-3 {
     height: 95vh;
+    width: 100vw;
 }
 
 .body-section-3 {
@@ -284,7 +291,7 @@
 }
 
 #home {
-    scroll-margin-top: 30vh; /* Ajuste conforme a altura da sua navbar */
+    scroll-margin-top: 30vh;
 }
 
 #about {
@@ -294,6 +301,100 @@
 #skills {
     scroll-margin-top: 5vh;
 }
+
+.section-4 {
+    height: 90vh;
+    width: 100vw;
+}
+
+.body-section-4 {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 80vw;
+    margin-left: 10vw;
+    justify-content: center;
+}
+
+.body-section-4 h1 {
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #13B0F5, #E70FAA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body-section-4 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #42446E;
+}
+
+.body-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.card {
+    width: 20vw;
+    height: 52vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.card h1 {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #13B0F5, #E70FAA);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1vw;
+}
+
+.card p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #42446E;
+    margin-left: 1vw;
+}
+
+.card img {
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.body-buttons {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-button {
+    height: 6vh;
+    width: 7vw;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#eye_img {
+    width: 2vw;
+    height: 4vh;
+}
+
+#github_img {
+    width: 2vw;
+    height: 4vh;
+}
+
 
 
 
