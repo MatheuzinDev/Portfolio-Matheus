@@ -30,12 +30,17 @@
     gap: 4vw;
 }
 
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav li {
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     height: 5vh;
     color: #666666;
-    position: relative; /* Necessário para o pseudo-elemento ::after */
+    position: relative; 
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -50,11 +55,11 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px; /* Espessura da linha debaixo */
+    height: 2px; 
     background: #000000;
     transform: scaleX(0);
     transform-origin: bottom right;
-    transition: transform 0.3s ease; /* Animação para o efeito da linha */
+    transition: transform 0.3s ease; 
 }
 
 .nav li:hover::after {
@@ -200,14 +205,14 @@
 }
 
 .section-3 {
-    height: 90vh;
+    height: 95vh;
 }
 
 .body-section-3 {
     display: flex;
     flex-direction: column;
-    height: 40vh;
-    width: 50vw;
+    height: 80vh;
+    width: 80vw;
     margin-left: 10vw;
     justify-content: center;
 }
@@ -220,7 +225,75 @@
     -webkit-text-fill-color: transparent;
 }
 
-.body-skills {
-    
+.body-section-3 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #42446E;
+    margin-top: 2vh;
 }
+
+.body-section-3 h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #42446E;
+    font-weight: bold;
+}
+
+.body-skills {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+.body-skills .individual-skill{
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.individual-skill .rectangle1 {
+    width: 15vw;
+    height: 4vh;
+    background-color: #bbb8b4;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.individual-skill .rectangle2 {
+    width: 15vw;
+    height: 4vh;
+    background-color: #dddcda;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.individual-skill .rectangle3 {
+    width: 15vw;
+    height: 4vh;
+    background-color: #eeedec;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.individual-skill .top-individual-skill{
+    display: flex;
+}
+
+#home {
+    scroll-margin-top: 30vh; /* Ajuste conforme a altura da sua navbar */
+}
+
+#about {
+    scroll-margin-top: 10vh;
+}
+
+#skills {
+    scroll-margin-top: 5vh;
+}
+
+
 
