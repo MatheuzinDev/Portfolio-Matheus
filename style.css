@@ -162,6 +162,7 @@ body {
 .section-2 {
     height: 90vh;
     width: 100vw; 
+    margin-top: 10vh;
 }
 
 .body-section-2 {
@@ -221,6 +222,7 @@ body {
 .section-3 {
     height: 95vh;
     width: 100vw;
+    margin-top: 5vh;
 }
 
 .body-section-3 {
@@ -318,9 +320,14 @@ body {
     scroll-margin-top: 5vh;
 }
 
+#projects {
+    scroll-margin-top: 10vh;
+}
+
 .section-4 {
     height: 90vh;
     width: 100vw;
+    margin-top: 10vh;
 }
 
 .body-section-4 {
@@ -454,4 +461,18 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+section {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2s;
 }
